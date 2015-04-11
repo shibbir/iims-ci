@@ -1,0 +1,25 @@
+body {
+	font-size: 13px;
+}
+.printer dd {
+	font-size: 85%;
+	margin-left: 0px;
+}
+
+.printer .table-bordered {
+	border-radius: 0;
+	border-collapse: collapse;
+}
+
+.printer .table td {
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+.printer .table th, .table td {
+	font-size: 85%;
+}
+
+.printer .declaration {
+	width: 450px;
+}

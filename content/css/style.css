@@ -1,0 +1,255 @@
+/********************************** START => OVERRIDE DEFAULT BOOTSTRAP CSS ************************************************/
+body {
+	padding-top: 40px;
+	background: url("../img/body-bg.png") repeat scroll 0 0 transparent;
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+a								{ cursor: pointer; }
+a:hover							{ text-decoration: none; }
+h1 								{ margin-bottom: 0.25em; }
+h2 								{ color: #4A515B; margin-bottom: 0.5em; }
+h3 								{ color: #FF9900; font-weight: 600; margin-bottom: 0.75em; }
+h4, h5, h6 						{ color: #666666; }
+hr 								{ border-top-color: #DDDDDD; }
+
+.form-horizontal .controls 		{ margin-left: 115px; }
+.form-horizontal .control-label { width: 110px; text-align: left; }
+.form-horizontal.user-password-form .control-label { width: 180px; }
+
+.input-append .add-on:last-child,
+.input-append .btn:last-child,
+.input-append .btn-group:last-child > .dropdown-toggle,
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child,
+.dropdown-menu, .alert,
+.btn, .btn-group > .btn:first-child, .btn-group > .btn:last-child, .btn-group > .dropdown-toggle,
+.well, .nav-tabs > li > a,
+.modal, .modal-footer,
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"], input[type="url"],
+input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0;
+}
+textarea {
+	box-shadow: 0 1px 5px #999999 inset;
+    padding: 10px;
+}
+
+.modal-body { max-height: none; }
+.modal-footer { border: medium none; box-shadow: none; }
+#ModalUserEdit.modal { width: 800px; margin-left: -400px; }
+#ModalCategoryAdd.modal, #ModalCategoryEdit.modal { width: 800px; margin-left: -400px; }
+#ModalOrganizationAdd.modal, #ModalOrganizationEdit.modal { width: 1080px; margin-left: -540px; }
+#ModalCustomerAdd.modal, #ModalCustomerEdit.modal { width: 800px; margin-left: -400px; }
+#ModalInventoryAdd.modal, #ModalInventoryEdit.modal { width: 1200px; margin-left: -600px; }
+
+/********************************** END => OVERRIDE DEFAULT BOOTSTRAP CSS ************************************************/
+
+
+
+/********************************** START => OVERRIDE DEFAULT KENDO UI CSS ************************************************/
+
+
+/********************************** END => OVERRIDE DEFAULT KENDO UI CSS ************************************************/
+
+/********************************** START => HELPER CSS ************************************************/
+
+.green		{ color: #468847; }
+.red		{ color: red; }
+.bold 		{ font-weight: bold; }
+.inline		{ display: inline; }
+.textRight 	{ text-align: right; }
+
+.block {
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 2px 9px 0px #CCCCCC;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.blank-page-msg {
+	height: 50px;
+    padding-top: 30px;
+}
+
+.login-container {
+	margin: 160px auto 0;
+	width: 425px;
+}
+.container {
+	padding-top: 10px;
+    min-height: 362px;
+    font-family: 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif;
+}
+.form-container {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D5D5D5;
+	padding: 20px 15px 15px;
+}
+ul.flexipage {
+	margin: 0;
+}
+
+a:focus, select:focus {
+	outline: none; 
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+.tbl-shoppingBag tbody tr td.productSerialFields {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.printNow {
+	display: inline-block;
+}
+
+.printNow a {
+	font-size: 14px;
+	color: red;
+}
+
+/********************************** END => HELPER CSS ************************************************/
+
+/********************************** START => WIDGET CSS ************************************************/
+
+.widget {
+	margin-bottom: 10px;
+	box-shadow: 0 3px 9px 0px #CCCCCC;
+}
+.widget-header {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #F5F5F5 100%) repeat scroll 0 0 transparent;
+    border-color: #C9C9C9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+}
+.widget-body {
+	background-color: #FDFDFD;
+    border: 1px solid #C9C9C9;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    padding: 15px 15px 0;
+	min-height: 230px;
+}
+
+/********************************** END => WIDGET CSS ************************************************/
+
+/********************************** START => DASHBOARD CSS ************************************************/
+
+.button1 {
+    background: url("../img/cpanel/user_info_48.png") no-repeat scroll 0 top transparent;
+}
+.button2 {
+    background: url("../img/cpanel/user_48.png") no-repeat scroll 0 top transparent;
+}
+.button3 {
+    background: url("../img/cpanel/customer_male_light_48.png") no-repeat scroll 0 top transparent;
+}
+.button4 {
+    background: url("../img/cpanel/inventory_48.png") no-repeat scroll 0 top transparent;
+}
+.button5 {
+    background: url("../img/cpanel/invoice_48.png") no-repeat scroll 0 top transparent;
+}
+.button6 {
+    background: url("../img/cpanel/office_bag_48.png") no-repeat scroll 0 top transparent;
+}
+ul.cpanel li {
+	-webkit-box-shadow: inset 0px 1px 0px 0px #fff;
+	box-shadow: inset 0px 1px 0px 0px #fff;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin: 0 2px 15px 0;
+	background: #f9f9f9;
+	background: -moz-linear-gradient(top, #f9f9f9 0%, #efefef 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#efefef));
+	background: -webkit-linear-gradient(top, #f9f9f9 0%,#efefef 100%);
+	background: -o-linear-gradient(top, #f9f9f9 0%,#efefef 100%);
+	background: -ms-linear-gradient(top, #f9f9f9 0%,#efefef 100%);
+	background: linear-gradient(top, #f9f9f9 0%,#efefef 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#efefef',GradientType=0 );
+	border: 1px solid #e2e2e2;
+}
+ul.cpanel li a .label{
+	position: absolute;
+	right: -5px;
+	top: -5px;
+}
+ul.cpanel li a {
+	position: relative;
+	display: block;
+	padding: 60px 8px 8px;
+	width: 100px;
+	height: 22px;
+	font-size: 12px;
+	color: #222;
+	background-repeat: no-repeat;
+	background-position: center 10px;
+}
+ul.cpanel li a:hover {
+	text-decoration: none;
+}
+ul.cpanel li:hover {
+	border-color:#d2d2d2;
+	-moz-box-shadow: 0 0 6px #ccc;
+	-webkit-box-shadow: 0 0 6px #ccc;
+	box-shadow: 0 0 6px #ccc;
+}
+
+/********************************** END => DASHBOARD CSS ************************************************/
+
+/* Activity Indicator */
+
+#container-spinner {
+	background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    height: 110px;
+    margin: 8% 20px 20px -110px;
+    width: 150px;
+    left: 50%;
+    margin-left: -110px;
+	position: absolute;
+}
+
+
+/********************************** START => PRODUCT CATEGORY CSS ************************************************/
+
+.categoryBlock {
+	width: 354px;
+	display: inline-block;
+}
+
+/********************************** END => PRODUCT CATEGORY CSS ************************************************/
+
+#grand-total-label {
+	width: 135px;
+}
+
+
+/********************************** START => PRODUCT NOTIFICATION CSS ************************************************/
+.label-notification {
+	color: black;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+/********************************** END => PRODUCT NOTIFICATION CSS ************************************************/

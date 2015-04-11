@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+ # allow_override On
+ # mod_rewrite is installed
+ 
+ RewriteEngine on
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+
+ <IfModule mod_php5.c>
+     RewriteRule ^(.*)$ index.php/$1 [L]
+ </IfModule>
+
+ <IfModule !mod_php5.c>
+     RewriteRule ^(.*)$ index.php?/$1 [L]
+ </IfModule>
+ 
+</IfModule>
