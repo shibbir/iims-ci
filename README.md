@@ -1,10 +1,10 @@
-# IIMSApp - CodeIgniter v2.2.0
+# IIMSApp - CodeIgniter v2.2.2
 
 IIMS is a simple online inventory and invoice management system that also help you manage your customers, employees, products.
 
 Built with these awesome tools:
 
-* [CodeIgniter v2.2.0](http://www.codeigniter.com/)
+* [CodeIgniter v2.2.2](http://www.codeigniter.com/)
 * [Twitter Bootstrap v2.3.2](http://getbootstrap.com/2.3.2/)
 * [KendoUI v2013.1.319](http://www.kendoui.com/)
 * [CI Template Library](http://williamsconcepts.com/ci/codeigniter/libraries/template/)
@@ -49,4 +49,4 @@ This application is released under the [**MIT License**](http://www.opensource.o
 
 Final Note
 ==========
-This project was written in 2013. It is no longer actively maintained. For a improved version please check the [**Laravel**](https://github.com/shibbir/iims-laravel) version of this application.
+The functionality of this project was written in 2013. It is no longer actively maintained. However I'm planning for a CodeIgniter v3 release.
