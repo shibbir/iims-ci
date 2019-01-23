@@ -1,6 +1,9 @@
-# IIMSApp - CodeIgniter v2.2.2
+## IIMSApp - CodeIgniter v2.2.2
 
-IIMS is a simple online inventory and invoice management system that also help you manage your customers, employees, products.
+> IIMS is a simple online inventory and invoice management system that also help you manage your customers, employees, products.
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 Built with these awesome tools:
 
@@ -20,7 +23,7 @@ Database Setup
 3. Finally, update the db info in "application/config/database.php"
 ```
 
-Install Gulp
+Installation
 ============
 
 ```bash
@@ -32,21 +35,3 @@ $ npm install
 $ npm install -g gulp
 $ gulp
 ```
-
-Demo
-====
-
-Url: http://iims.shibbir.net/
-
-```bash
-Username: admin
-Password: HakunaMatata
-```
-
-License
-=======
-This application is released under the [**MIT License**](http://www.opensource.org/licenses/MIT).
-
-Final Note
-==========
-The functionality of this project was written in 2013. It is no longer actively maintained. However I'm planning for a CodeIgniter v3 release.
